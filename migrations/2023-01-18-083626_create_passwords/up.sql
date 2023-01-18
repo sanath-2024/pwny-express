@@ -1,0 +1,5 @@
+CREATE TABLE passwords (
+    id INTEGER PRIMARY KEY AUTOINCREMENT,
+    name TEXT NOT NULL UNIQUE,
+    value_hash BLOB NOT NULL
+);
